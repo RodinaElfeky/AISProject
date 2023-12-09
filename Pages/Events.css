@@ -1,0 +1,333 @@
+*
+{
+    margin: 0;
+    padding: 0;
+} 
+/*----------Navigation------*/
+#nav-bar
+{
+    position: sticky;
+    top: 0;
+    z-index: 10;
+}
+.navbar-Logo img
+{
+    height: 100px;
+    padding-left: 90px;
+}
+.navbar-nav li
+{
+    padding: 0 10px;
+}
+.navbar-nav li a
+{
+    float: right;
+    text-align: left;
+}
+#nav-bar ul li a:hover
+{
+    color: #007bff!important;
+}
+.navbar
+{
+    background: #fff;
+    
+}
+.navbar-toggler
+{
+    border: none!important;
+}
+.nav-link
+{
+    color: #555!important;
+    font-weight: 600;
+    font-size: 16px;
+}
+/*-----Events Details---*/
+.banner-btn
+{
+    text-align: center;
+}
+.Reg-btn
+{
+    padding: 10px 0;
+    margin-top: 10px;
+    height: 85px;
+    width: 20%;
+    outline: none;
+    color: #fff;
+    border: none;
+    font-size: 18px;
+    font-weight: 500;
+    border-radius: 5px;
+    letter-spacing: 1px;
+    background: linear-gradient(135deg, #05073a, #dc0606ca);
+}
+.Reg-btn:hover
+{
+    background: linear-gradient(-135deg, #05073a, #dc0606ca);
+}
+.IP 
+{
+    padding-top: 20px;
+    padding-bottom: 25px;
+    font-size:30px;
+    text-align: center;
+    color:darkred;
+}
+.paragraph
+{
+    padding-top: 20px;
+    padding-bottom: 25px;
+    font-size:30px;
+    font-style: italic;
+    text-align: center;
+    color: #000;
+}
+.ptittle
+{
+    text-align: center;
+    color: chocolate;
+}
+.img
+{
+    padding-top: 25px;
+    padding-bottom: 20px;
+}
+.ptittle2
+{
+    text-align: center;
+    text-decoration: black;
+    padding-top: 20px;
+    
+}
+.material-icons
+{
+    color:brown;
+}
+.ptittle2 ::after
+{
+    content: '';
+    background: brown;
+    display: block;
+    height: 3px;
+    width: 170px;
+    margin: 20px auto 5px;
+    align-items: left;
+}
+.ptittle3
+{
+    text-align: left;
+    text-decoration: black;
+    padding-top: 20px;
+    padding-bottom: 10px;
+}
+.p3
+{
+    padding-left: 20px;
+    font-size: 25px;
+
+}
+.img2
+{
+    padding-top: 20px;
+    padding-bottom: 10px;
+}
+.ITh 
+{
+    padding-top: 50px;
+    text-align: center;
+    color: brown;
+}
+.pIT
+{
+    padding-top: 20px;
+    padding-bottom: 25px;
+    font-size:23px;
+    font-style: italic;
+    text-align: center;
+    color: #000;
+}
+.ED
+{
+    font-size: 18px;
+}
+/*----Registration---*/
+#Reg-Form
+{
+    box-sizing: border-box;
+    color: #fff;
+    display: flex;
+    height:100vh;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(135deg, #05073a, #dc0606ca);
+    padding: 10px;
+}
+.container
+{
+    max-width: 700px;
+    width: 100%;
+    padding: 25px 30px;
+    border-radius: 25px;
+} 
+.container .heading
+{
+    font-size: 25px;
+    font-weight: 500;
+    position: relative;
+    text-align: center;
+    padding: 0 0 20px 0;
+}
+.container .heading ::before
+{
+    content: '';
+    position: absolute;
+    height: 3px;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background: linear-gradient(135deg, #71b7e6, #9b5b);
+}
+.container form .card-details
+{
+    margin-top: 25px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+form .card-details .card-box
+{
+    width: calc(100% / 2 - 20px);
+    margin-bottom: 15px;
+}
+.card-details .card-box .details
+{
+    display: block;
+    font-weight: 500;
+    margin-bottom: 5px;
+}
+.card-details .card-box input
+{
+    height: 45px;
+    width: 100%;
+    outline: none;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    padding-left: 15px;
+    font-size: 16px;
+    border-bottom-width: 2px;
+    transition: all 0.3s ease;
+}
+.card-details .card-box input:focus
+.card-details .card-box input:valid
+{
+   border-color: #9b59b6;
+}
+form .circal-form .circal-tittle
+{
+    font-size: 20px;
+    font-weight: 500;
+    border-bottom: 2px solid;
+}
+form .circal-form .category
+{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+form .button
+{
+    text-align: center;
+}
+form .button input
+{
+    padding: 10px 0;
+    margin-top: 10px;
+    height: 100%;
+    width: 50%;
+    outline: none;
+    color: #fff;
+    border: none;
+    font-size: 18px;
+    font-weight: 500;
+    border-radius: 5px;
+    letter-spacing: 1px;
+    background: linear-gradient(135deg, #05073a, #dc0606ca);
+}
+form .button input:hover
+{
+    background: linear-gradient(-135deg, #05073a, #dc0606ca);
+}
+.circal-form
+{
+    padding-right: 350px;
+}
+/*------footer-----*/
+.footer
+{
+    background: #000;
+    color: #8a8a8a;
+    font-size: 14px;
+    padding: 60px 0 20px;
+}
+.footer p
+{
+    color: #8a8a8a;
+}
+.footer h3
+{
+    color: #fff;
+    margin-bottom: 20px;
+}
+.footer-col-1, .footer-col-2, .footer-col-3, .footer-col-4
+{
+    min-width: 250px;
+    margin-bottom: 20px;
+}
+.footer-col-1
+{
+    flex-basis: 30%;
+}
+.footer-col-2
+{
+    flex: 1;
+    text-align: center;
+}
+.footer-col-2 img
+{
+    width: 180px;
+    margin-bottom: 20px;
+}
+.footer-col-3, .footer-col-4
+{
+   flex-basis: 12%;
+   text-align: center;
+}
+ul
+{
+    list-style-type: none;
+}
+.app-logo
+{
+    margin-top: 20px;
+}
+.app-logo img
+{
+    width: 140px;
+}
+.footer hr
+{
+    border: none;
+    background: #b5b5b5;
+    height: 1px;
+    margin: 20px 0;
+}
+.copyright
+{
+    text-align: center;
+}
+body
+{
+    overflow-x: hidden;
+}
+
